@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARKET BREAKDOWN 5.0 | Elite Trading Intelligence</title>
+    <meta name="description" content="Institutional-grade market analysis and trading signals for serious traders.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="[fonts.googleapis.com](https://fonts.googleapis.com)">
+    <link rel="preconnect" href="[fonts.gstatic.com](https://fonts.gstatic.com)" crossorigin>
+    <link href="[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap)" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-text">MARKET BREAKDOWN</span>
+                <span class="logo-version">5.0</span>
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#problem" class="nav-link">The Problem</a></li>
+                <li><a href="#solution" class="nav-link">Solution</a></li>
+                <li><a href="#results" class="nav-link">Results</a></li>
+                <li><a href="#faq" class="nav-link">FAQ</a></li>
+                <li><a href="[t.me](https://t.me/YOURCHANNEL)" target="_blank" class="nav-cta">Join Now</a></li>
+            </ul>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <div class="hero-gradient"></div>
+            <div class="hero-particles" id="particles"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                <span>Trusted by 2,500+ Traders Worldwide</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="title-line">Institutional-Grade</span>
+                <span class="title-line gold-text">Market Intelligence</span>
+                <span class="title-line">At Your Fingertips</span>
+            </h1>
+            <p class="hero-subtitle">
+                Stop guessing. Start trading with precision. MARKET BREAKDOWN 5.0 delivers 
+                real-time analysis, high-probability setups, and the edge serious traders demand.
+            </p>
+            <div class="hero-cta">
+                <a href="[t.me](https://t.me/YOURCHANNEL)" target="_blank" class="btn btn-primary">
+                    <span>Get Instant Access</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
+                <a href="#results" class="btn btn-secondary">View Results</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number" data-target="847">0</span>
+                    <span class="stat-label">Winning Trades</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" data-target="94">0</span><span class="stat-suffix">%</span>
+                    <span class="stat-label">Win Rate</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" data-target="2500">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">Active Members</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll to explore</span>
+            <div class="scroll-indicator"></div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="section problem-section" id="problem">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">The Reality</span>
+                <h2 class="section-title">Why 95% of Traders <span class="gold-text">Fail</span></h2>
+            </div>
+            <div class="problem-grid">
+                <div class="problem-card glass-card">
+                    <div class="problem-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 6v6l4 2"/>
+                        </svg>
+                    </div>
+                    <h3>Information Overload</h3>
+                    <p>Drowning in indicators, news feeds, and conflicting signals. By the time you analyze, the move is over.</p>
+                </div>
+                <div class="problem-card glass-card">
+                    <div class="problem-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="M2 17l10 5 10-5"/>
+                            <path d="M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3>No Clear Edge</h3>
+                    <p>Trading without a systematic advantage. Random entries, emotional exits, and a equity curve that trends nowhere.</p>
+                </div>
+                <div class="problem-card glass-card">
+                    <div class="problem-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                        </svg>
+                    </div>
+                    <h3>Emotional Trading</h3>
+                    <p>FOMO entries, panic exits, revenge trades. Your psychology sabotages every technical setup you identify.</p>
+                </div>
+                <div class="problem-card glass-card">
+                    <div class="problem-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="3" y="3" width="18" height="18" rx="2"/>
+                            <path d="M3 9h18"/>
+                            <path d="M9 21V9"/>
+                        </svg>
+                    </div>
+                    <h3>Missed Opportunities</h3>
+                    <p>The best setups happen while you sleep, work, or look away. Institutional traders never miss—why should you?</p>
+                </div>
+            </div>
+            <div class="problem-statement glass-card">
+                <blockquote>
+                    "The market doesn't care about your feelings. It rewards preparation, punishes hesitation, and respects only those with a real edge."
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section class="section solution-section" id="solution">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">The Solution</span>
+                <h2 class="section-title">Introducing <span class="gold-text">MARKET BREAKDOWN 5.0</span></h2>
+                <p class="section-subtitle">
+                    Five years of refinement. Thousands of trades analyzed. One system engineered for consistent profitability.
+                </p>
+            </div>
+            <div class="solution-content">
+                <div class="solution-visual">
+                    <div class="visual-card glass-card">
+                        <div class="visual-header">
+                            <span class="visual-dot green"></span>
+                            <span class="visual-dot yellow"></span>
+                            <span class="visual-dot red"></span>
+                        </div>
+                        <div class="visual-chart">
+                            <div class="chart-line"></div>
+                            <div class="chart-bars">
+                                <div class="bar" style="--height: 40%"></div>
+                                <div class="bar" style="--height: 65%"></div>
+                                <div class="bar" style="--height: 45%"></div>
+                                <div class="bar gold" style="--height: 85%"></div>
+                                <div class="bar gold" style="--height: 95%"></div>
+                                <div class="bar gold" style="--height: 78%"></div>
+                                <div class="bar gold" style="--height: 92%"></div>
+                            </div>
+                            <div class="chart-label">Performance Over Time</div>
+                        </div>
+                    </div>
+                    <div class="visual-glow"></div>
+                </div>
+                <div class="solution-features">
+                    <div class="feature">
+                        <div class="feature-number">01</div>
+                        <div class="feature-content">
+                            <h4>Algorithmic Pattern Recognition</h4>
+                            <p>Our proprietary system scans 50+ markets in real-time, identifying high-probability setups before they become obvious.</p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-number">02</div>
+                        <div class="feature-content">
+                            <h4>Institutional Order Flow Analysis</h4>
+                            <p>See where smart money positions. Trade alongside institutions, not against them.</p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-number">03</div>
+                        <div class="feature-content">
+                            <h4>Risk-Calculated Entries</h4>
+                            <p>Every signal includes precise entry, stop-loss, and take-profit levels. No guesswork, no ambiguity.</p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-number">04</div>
+                        <div class="feature-content">
+                            <h4>24/7 Market Coverage</h4>
+                            <p>Crypto, forex, indices, commodities. Never miss a setup across any major market session.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What You Receive Section -->
+    <section class="section receive-section" id="receive">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Your Access</span>
+                <h2 class="section-title">What You <span class="gold-text">Receive</span></h2>
+            </div>
+            <div class="receive-grid">
+                <div class="receive-card glass-card">
+                    <div class="receive-icon gold-glow">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M22 2L11 13"/>
+                            <path d="M22 2L15 22l-4-9-9-4 20-7z"/>
+                        </svg>
+                    </div>
+                    <h3>Real-Time Trade Alerts</h3>
+                    <p>Instant Telegram notifications with exact entry, stop-loss, and take-profit levels. Execute in seconds.</p>
+                    <span class="receive-tag">Unlimited Signals</span>
+                </div>
+                <div class="receive-card glass-card">
+                    <div class="receive-icon gold-glow">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                            <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                        </svg>
+                    </div>
+                    <h3>Daily Market Breakdown</h3>
+                    <p>Comprehensive analysis of key levels, upcoming catalysts, and actionable bias for every major market.</p>
+                    <span class="receive-tag">Every Trading Day</span>
+                </div>
+                <div class="receive-card glass-card">
+                    <div class="receive-icon gold-glow">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                        </svg>
+                    </div>
+                    <h3>Private Community Access</h3>
+                    <p>Connect with serious traders. Share ideas, get feedback, and level up your trading psychology.</p>
+                    <span class="receive-tag">VIP Only</span>
+                </div>
+                <div class="receive-card glass-card">
+                    <div class="receive-icon gold-glow">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                        </svg>
+                    </div>
+                    <h3>Weekly Strategy Sessions</h3>
+                    <p>Live deep-dives into our methodology, trade reviews, and Q&A with the lead analyst.</p>
+                    <span class="receive-tag">Live + Recorded</span>
+                </div>
+                <div class="receive-card glass-card">
+                    <div class="receive-icon gold-glow">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                        </svg>
+                    </div>
+                    <h3>Trading Tools Suite</h3>
+                    <p>Position size calculator, risk management templates, and proprietary indicators for your charts.</p>
+                    <span class="receive-tag">Exclusive Access</span>
+                </div>
+                <div class="receive-card glass-card featured">
+                    <div class="featured-badge">MOST VALUABLE</div>
+                    <div class="receive-icon gold-glow">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 16v-4"/>
+                            <path d="M12 8h.01"/>
+                        </svg>
+                    </div>
+                    <h3>Direct Analyst Access</h3>
+                    <p>Got questions? Get answers. Direct message access to our senior analysts for personalized guidance.</p>
+                    <span class="receive-tag">Priority Support</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section class="section results-section" id="results">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Verified Performance</span>
+                <h2 class="section-title">Testing <span class="gold-text">Results</span></h2>
+                <p class="section-subtitle">
+                    Transparent, verifiable results from our signal history. Every trade documented, every outcome recorded.
+                </p>
+            </div>
+            <div class="results-showcase">
+                <div class="results-stats glass-card">
+                    <div class="result-stat">
+                        <span class="result-value gold-text">94.2%</span>
+                        <span class="result-label">Win Rate (90-Day)</span>
+                    </div>
+                    <div class="result-stat">
+                        <span class="result-value gold-text">3.8:1</span>
+                        <span class="result-label">Average R:R Ratio</span>
+                    </div>
+                    <div class="result-stat">
+                        <span class="result-value gold-text">847</span>
+                        <span class="result-label">Winning Trades</span>
+                    </div>
+                    <div class="result-stat">
+                        <span class="result-value gold-text">+412%</span>
+                        <span class="result-label">Account Growth (YTD)</span>
+                    </div>
+                </div>
+                <div class="results-table glass-card">
+                    <div class="table-header">
+                        <h4>Recent Signal Performance</h4>
+                        <span class="live-badge"><span class="pulse"></span>Updated Daily</span>
+                    </div>
+                    <div class="table-content">
+                        <div class="table-row header">
+                            <span>Asset</span>
+                            <span>Direction</span>
+                            <span>Entry</span>
+                            <span>Result</span>
+                        </div>
+                        <div class="table-row">
+                            <span class="asset">BTC/USDT</span>
+                            <span class="direction long">LONG</span>
+                            <span>$67,450</span>
+                            <span class="result positive">+4.2R ✓</span>
+                        </div>
+                        <div class="table-row">
+                            <span class="asset">EUR/USD</span>
+                            <span class="direction short">SHORT</span>
+                            <span>1.0892</span>
+                            <span class="result positive">+2.8R ✓</span>
+                        </div>
+                        <div class="table-row">
+                            <span class="asset">GOLD</span>
+                            <span class="direction long">LONG</span>
+                            <span>$2,341</span>
+                            <span class="result positive">+3.5R ✓</span>
+                        </div>
+                        <div class="table-row">
+                            <span class="asset">SPX500</span>
+                            <span class="direction long">LONG</span>
+                            <span>5,421</span>
+                            <span class="result positive">+2.1R ✓</span>
+                        </div>
+                        <div class="table-row">
+                            <span class="asset">ETH/USDT</span>
+                            <span class="direction short">SHORT</span>
+                            <span>$3,890</span>
+                            <span class="result positive">+5.2R ✓</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="results-disclaimer">
+                <p>*Past performance does not guarantee future results. Trading involves significant risk of loss.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof Section -->
+    <section class="section social-section" id="social">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Community</span>
+                <h2 class="section-title">Why Traders Are <span class="gold-text">Joining</span></h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial glass-card">
+                    <div class="testimonial-rating">★★★★★</div>
+                    <p>"Finally, a signal service that actually delivers. The analysis is institutional-quality, and the community is incredibly supportive. My trading has completely transformed."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">M</div>
+                        <div class="author-info">
+                            <span class="author-name">Marcus T.</span>
+                            <span class="author-role">Forex Trader • 8 months</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial glass-card">
+                    <div class="testimonial-rating">★★★★★</div>
+                    <p>"The risk management education alone is worth 10x the price. I went from blowing accounts to consistent profitability in 3 months. These guys know what they're doing."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">S</div>
+                        <div class="author-info">
+                            <span class="author-name">Sarah K.</span>
+                            <span class="author-role">Crypto Trader • 1 year</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial glass-card">
+                    <div class="testimonial-rating">★★★★★</div>
+                    <p>"I've tried 6 other services. All garbage. MARKET BREAKDOWN is the real deal—no BS, no hype, just clean analysis and winning trades. The results speak for themselves."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">J</div>
+                        <div class="author-info">
+                            <span class="author-name">James R.</span>
+                            <span class="author-role">Full-time Trader • 6 months</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="social-stats glass-card">
+                <div class="social-stat">
+                    <span class="social-icon">👥</span>
+                    <span class="social-number">2,500+</span>
+                    <span class="social-label">Active Members</span>
+                </div>
+                <div class="social-stat">
+                    <span class="social-icon">🌍</span>
+                    <span class="social-number">47</span>
+                    <span class="social-label">Countries</span>
+                </div>
+                <div class="social-stat">
+                    <span class="social-icon">💬</span>
+                    <span class="social-number">15K+</span>
+                    <span class="social-label">Daily Messages</span>
+                </div>
+                <div class="social-stat">
+                    <span class="social-icon">⭐</span>
+                    <span class="social-number">4.9/5</span>
+                    <span class="social-label">Member Rating</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sample Setup Section -->
+    <section class="section sample-section" id="sample">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Example</span>
+                <h2 class="section-title">Sample <span class="gold-text">Trade Setup</span></h2>
+                <p class="section-subtitle">
+                    Here's exactly what a MARKET BREAKDOWN signal looks like. Clear, actionable, profitable.
+                </p>
+            </div>
+            <div class="sample-card glass-card">
+                <div class="sample-header">
+                    <div class="sample-badge">LIVE SIGNAL</div>
+                    <span class="sample-time">June 14, 2026 • 09:42 UTC</span>
+                </div>
+                <div class="sample-content">
+                    <div class="sample-pair">
+                        <span class="pair-name">BTC/USDT</span>
+                        <span class="pair-direction long">LONG</span>
+                    </div>
+                    <div class="sample-details">
+                        <div class="detail-row">
+                            <span class="detail-label">Entry Zone</span>
+                            <span class="detail-value">$67,200 - $67,450</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Stop Loss</span>
+                            <span class="detail-value stop">$66,100</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Take Profit 1</span>
+                            <span class="detail-value tp">$69,800 (1.8R)</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Take Profit 2</span>
+                            <span class="detail-value tp">$72,500 (3.8R)</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Take Profit 3</span>
+                            <span class="detail-value tp">$75,000 (5.6R)</span>
+                        </div>
+                    </div>
+                    <div class="sample-analysis">
+                        <h4>Analysis</h4>
+                        <p>BTC reclaiming key support at $67K after liquidity sweep. Bullish divergence on 4H RSI, institutional accumulation visible on CVD. Targeting weekly resistance with partials at each level. Risk: 2% max position size.</p>
+                    </div>
+                    <div class="sample-outcome">
+                        <span class="outcome-label">Outcome:</span>
+                        <span class="outcome-result">TP2 HIT +3.8R ✓</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section faq-section" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Questions</span>
+                <h2 class="section-title">Frequently <span class="gold-text">Asked</span></h2>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item glass-card">
+                    <button class="faq-question">
+                        <span>What markets do you cover?</span>
+                        <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We provide signals and analysis for major cryptocurrencies (BTC, ETH, SOL, and select altcoins), forex pairs (majors and crosses), indices (SPX, NASDAQ, DAX), and commodities (Gold, Oil). Our system monitors 50+ instruments across all major market sessions.</p>
+                    </div>
+                </div>
+                <div class="faq-item glass-card">
+                    <button class="faq-question">
+                        <span>How many signals do you send per day?</span>
+                        <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Quality over quantity. We typically send 3-7 high-probability signals per day, depending on market conditions. During high-volatility events, this may increase. We never force trades—if conditions aren't right, we wait.</p>
+                    </div>
+                </div>
+                <div class="faq-item glass-card">
+                    <button class="faq-question">
+                        <span>What's the minimum account size needed?</span>
+                        <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Our signals work with any account size. We provide risk percentages rather than fixed lot sizes, so you can scale appropriately. Most members start with accounts ranging from $500 to $50,000+. Proper position sizing is covered in our education materials.</p>
+                    </div>
+                </div>
+                <div class="faq-item glass-card">
+                    <button class="faq-question">
+                        <span>Do I need trading experience?</span>
+                        <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Basic understanding of how to place trades on your platform is required. However, our signals are designed to be actionable regardless of experience level. We include educational content to help newer traders understand the "why" behind each setup.</p>
+                    </div>
+                </div>
+                <div class="faq-item glass-card">
+                    <button class="faq-question">
+                        <span>What makes this different from other signal services?</span>
+                        <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Three things: (1) Full transparency—every trade is documented with entry, exit, and result. (2) Education—we teach you the methodology, not just give you fish. (3) Institutional approach—our analysis uses order flow, liquidity mapping, and smart money concepts that most retail services ignore.</p>
+                    </div>
+                </div>
+                <div class="faq-item glass-card">
+                    <button class="faq-question">
+                        <span>Is there a refund policy?</span>
+                        <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Due to the nature of digital signal services, we don't offer refunds after channel access is granted. However, you can view our public track record before joining. We're confident in our value—most members who give us 30 days become long-term subscribers.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="section cta-section" id="cta">
+        <div class="cta-bg">
+            <div class="cta-glow"></div>
+        </div>
+        <div class="container">
+            <div class="cta-content">
+                <span class="cta-tag">Limited Availability</span>
+                <h2 class="cta-title">Ready to Trade With <span class="gold-text">Precision?</span></h2>
+                <p class="cta-subtitle">
+                    Join 2,500+ traders who've upgraded their edge. Access is limited to ensure quality—don't wait until spots close.
+                </p>
+                <div class="cta-features">
+                    <div class="cta-feature">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20 6L9 17l-5-5"/>
+                        </svg>
+                        <span>Instant Telegram Access</span>
+                    </div>
+                    <div class="cta-feature">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20 6L9 17l-5-5"/>
+                        </svg>
+                        <span>Real-Time Trade Alerts</span>
+                    </div>
+                    <div class="cta-feature">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20 6L9 17l-5-5"/>
+                        </svg>
+                        <span>Private Community</span>
+                    </div>
+                    <div class="cta-feature">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20 6L9 17l-5-5"/>
+                        </svg>
+                        <span>Cancel Anytime</span>
+                    </div>
+                </div>
+                <a href="[t.me](https://t.me/YOURCHANNEL)" target="_blank" class="btn btn-primary btn-large">
+                    <span>Join MARKET BREAKDOWN 5.0</span>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
+                <p class="cta-note">Secure checkout • Instant access • 24/7 support</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span
